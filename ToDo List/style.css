@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    background:linear-gradient(206deg,
+          hsla(117.03, 58.39%, 31.65%, 0.88) 0%,
+          hsla(117.03, 58.39%, 31.65%, 0.88) 20%,
+          hsla(114.98, 53.13%, 24.39%, 0.91) 20%,
+          hsla(114.98, 53.13%, 24.39%, 0.91) 40%,
+          hsla(112.64, 46.17%, 17.28%, 0.94) 40%,
+          hsla(112.64, 46.17%, 17.28%, 0.94) 60%,
+          hsla(108.18, 35.74%, 10.33%, 0.97) 60%,
+          hsla(108.18, 35.74%, 10.33%, 0.97) 80%,
+          hsl(137.28, 0%, 1%) 80%,
+          hsl(137.28, 0%, 1%) 100%);
+     
+        animation: main 2s cubic-bezier(0.215, 0.610, 0.355, 1);
+        animation-duration: 2.5s;
+        animation-delay: 0.4;
+        } 
+        @keyframes main {
+            from{ filter: blur(80px);}
+            to{}
+        }
+     
+header{
+    float: right;
+    background: transparent;
+}
+header button{
+    margin-left: 20px;
+    font-size: medium;
+    background: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: green;
+    padding: 6px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+header button:hover{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 300;
+}
+h2{
+    margin-top: 50px;
+    background: transparent;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-decoration: 4px dashed black underline;
+    color: aliceblue;
+}
+h2:hover{
+    color: black;
+    cursor: pointer;
+    transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main{
+    border:  2px solid white;
+    height: 200px;
+    padding: 40px;
+    text-align: center;
+    background: transparent;
+    backdrop-filter: blur(20px);
+}
+main label{
+    background: transparent;
+    color: antiquewhite;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+}
+main input{
+    background: transparent;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 3px solid gray;
+    padding: 10px;
+    overflow: auto;
+}
+main button{
+    color: aliceblue;
+    font-size: 15px;
+    margin-left: 20px;
+    background: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition: all 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+    padding: 3px;
+}
+main button:hover{
+    box-shadow: 7px 10px 12px wheat;
+    transform: rotate(360deg);
+}
+h4{
+    background: transparent;
+    color: aliceblue;
+    margin-left: 150px;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+table,tr,td,button{
+    background: transparent;
+}
+table{
+    background-color: rgb(3, 3, 3);
+    color: springgreen;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: 20px;   
+}
+table button{
+    background-color: rgb(17, 17, 16);
+    padding: 5px;
+    color: green;
+    font-variant: small-caps;
+    transition: all 2s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+table button:hover{
+    padding: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+
+}
